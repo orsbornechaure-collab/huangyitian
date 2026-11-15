@@ -1,0 +1,21 @@
+{
+  "run_id": "H04_20261111_AN_r1",
+  "mode": "real",
+  "out_dir": "05_results/H04_20261111_AN_r1",
+  "sap": {"path": "01_protocol/H04_Protocol_SAP_v1.2_冻结候选.md", "sha256": "e2be916f335acfc192f6de1b031299ab2d0101bd8b221a93792a7136267deae8"},
+  "data": {
+    "mimic": {
+      "5":  {"path": "04_derived/H04_20261111_BUILD_r1/mimic_pairs_w5.csv.gz",  "sha256": "c8fde1033ae1728aa1272d836fb5c49d8ceaa5b51c4e3e9245ce67c8d876e190"},
+      "10": {"path": "04_derived/H04_20261111_BUILD_r1/mimic_pairs_w10.csv.gz", "sha256": "24ad13a48afa15a276388a1e6707ac3e61d5cc7584dbb3eb93888d47438bf62f"},
+      "30": {"path": "04_derived/H04_20261111_BUILD_r1/mimic_pairs_w30.csv.gz", "sha256": "413e839aa11c124f6b58944d0f62f2f4bc47bf240e530a7beb1916e3320891a1"}
+    },
+    "sicdb": {
+      "5":  {"path": "04_derived/H04_20261111_BUILD_r1/sicdb_pairs_w5.csv.gz",  "sha256": "af55a91540c4e00aad6fa87b5c683a1927ffe238054e09c56547e98b99ae51b3"},
+      "10": {"path": "04_derived/H04_20261111_BUILD_r1/sicdb_pairs_w10.csv.gz", "sha256": "19c39916fb701571339bb6de523882189e457b74488490267c14564117100a83"},
+      "30": {"path": "04_derived/H04_20261111_BUILD_r1/sicdb_pairs_w30.csv.gz", "sha256": "2032971c369a61e57eebba0d441309e3ae38fa6e54fcb7858fc5744c47e62dc4"}
+    }
+  },
+  "n_boot": 2000,
+  "n_boot_paba": 1000,
+  "seed": 20261110
+}

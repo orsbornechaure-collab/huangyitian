@@ -1,0 +1,13 @@
+{
+  "run_id": "H04_20261113_PHX_r1",
+  "label": "post hoc exploratory",
+  "out_dir": "05_results/H04_20261113_PHX_r1",
+  "spec": {"path": "01_protocol/PHX_r1_规格.md", "sha256": "1579eded0c5210dbe92096d2180ba6323668660ecb1c681e86945ea646acf118"},
+  "input": {"mimic_w10": {"path": "04_derived/H04_20261111_BUILD_r1/mimic_pairs_w10.csv.gz", "sha256": "24ad13a48afa15a276388a1e6707ac3e61d5cc7584dbb3eb93888d47438bf62f"}},
+  "locked": {
+    "results": {"path": "05_results/H04_20261111_AN_r1/results.json", "sha256": "a6c18d0bc1772725b1221cbd16fbfc285293dda1d43ff0215bf3218b49f925b0"},
+    "share_r5": {"path": "05_results/H04_20261113_SHARE_r5/publish_numbers.json", "sha256": "36bac559877ab9f6f9d62af839fdffb7cfadbfa057eec5b8ccc995bb3d55c879"}
+  },
+  "seed": 20261110,
+  "B": 2000
+}
